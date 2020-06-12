@@ -1,0 +1,86 @@
+@import "base.scss";
+
+.projects{
+    background-color:$color-grey-light-2;
+    grid-column: full-start/full-end;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40rem,1fr));
+    // @include respond(tab-land) {
+    //     grid-template-columns: repeat(auto-fit, minmax(40rem,1fr));
+    // }
+    @include respond(big-desktop) {
+        grid-template-columns: 33.33% 33.33% 33.33%;;
+    }
+
+    // &__button{
+    //     width: 100vw;
+    //     font-size: 3.5rem;
+    //     text-align: center;
+    //     background-image: linear-gradient(
+    //     to right bottom,rgba($color-secondary,1),rgba($color-primary,.9));
+    // }
+
+}
+// .btn-load{
+//     text-decoration: none;
+//     color: $color-white;
+// }
+
+.project{
+    display: grid;
+    height: 40rem;
+    position: relative;
+    overflow: hidden;
+    backface-visibility: hidden;
+
+
+    // display: grid;
+    // height: 40rem;
+    // transition: transform .8s;
+    // filter: grayscale(.2);
+    // backface-visibility: hidden;
+
+  
+    &__img{
+        height: 100%;
+        width: 100%;
+        transform:  scale(1);
+        backface-visibility: hidden;
+        transition: all .5s;
+        object-fit: cover;
+        //width:100%;
+    }
+
+    &__caption{
+
+        position: absolute;
+        top:50%;
+        font-style: $font-primary;
+        font-weight: 200;
+        left:50%;
+        transform: translate(-50%,100%);
+        color: $color-white;
+        text-transform: uppercase;
+        font-size: 3rem;
+        text-align: center;
+        font-weight: 800;
+        opacity: 0;
+        transition: all .5s;
+       
+    }
+
+    &:hover &__caption{
+        opacity: 1;
+        transform: translate(-50%,-50%);
+    }
+
+    &:hover &__img{
+       transform: scale(1.2);
+       filter: blur(3px) brightness(80%);
+    }
+}
+
+.projects button{
+    font-family: $font-primary;
+}

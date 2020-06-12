@@ -1,0 +1,32 @@
+@import "base.scss";
+
+.button{
+    background-image: linear-gradient(
+        to right bottom,rgba($color-secondary,1),rgba($color-primary,.9));
+    grid-column: full-start/full-end;
+    overflow: hidden;
+    text-align: center;
+    
+
+}
+.btn-load{
+    background-image: linear-gradient(
+        to bottom,rgba($color-secondary,1),rgba($color-primary,.9));
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    border: none;
+    display: inline-block;
+    width: 100vw;
+    
+    color: $color-white;
+    cursor: pointer;
+    font-size: 2rem;
+
+    transition: ease-in .2s;
+
+    &:hover{
+        filter: saturate(2);
+        // background-image: linear-gradient(
+        // to right bottom,rgba($color-primary,1),rgba($color-secondary,.9));
+    }
+}

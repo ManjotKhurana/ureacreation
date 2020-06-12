@@ -1,0 +1,24 @@
+@import "base.scss";
+
+.partners{
+    grid-column: center-start/center-end;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem,1fr));
+    grid-gap: 8rem;
+
+}
+
+.partner{
+    
+    padding: 2rem;
+  
+    width: 25rem;
+    height: 25rem;
+    justify-self: center;
+    &__img{
+        width: 25rem;
+        height: 25rem;
+    }
+    
+}
