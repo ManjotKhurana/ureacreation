@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ureacreation/static/css/main.510a8cca.chunk.css",
+    "main.js": "/ureacreation/static/js/main.7315ae0f.chunk.js",
+    "main.js.map": "/ureacreation/static/js/main.7315ae0f.chunk.js.map",
+    "runtime-main.js": "/ureacreation/static/js/runtime-main.7c32efdc.js",
+    "runtime-main.js.map": "/ureacreation/static/js/runtime-main.7c32efdc.js.map",
+    "static/js/2.c5979af9.chunk.js": "/ureacreation/static/js/2.c5979af9.chunk.js",
+    "static/js/2.c5979af9.chunk.js.map": "/ureacreation/static/js/2.c5979af9.chunk.js.map",
+    "index.html": "/ureacreation/index.html",
+    "precache-manifest.86cb3bb3845038e939fe8303a28b596c.js": "/ureacreation/precache-manifest.86cb3bb3845038e939fe8303a28b596c.js",
+    "service-worker.js": "/ureacreation/service-worker.js",
+    "static/css/main.510a8cca.chunk.css.map": "/ureacreation/static/css/main.510a8cca.chunk.css.map",
+    "static/js/2.c5979af9.chunk.js.LICENSE.txt": "/ureacreation/static/js/2.c5979af9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c32efdc.js",
+    "static/js/2.c5979af9.chunk.js",
+    "static/css/main.510a8cca.chunk.css",
+    "static/js/main.7315ae0f.chunk.js"
+  ]
+}
